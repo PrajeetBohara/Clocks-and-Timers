@@ -21,6 +21,7 @@ def timer(hour, minute, second):
         return #exit this function without returning anything
     if hour > 0 and minute == 0 and second == 0:
         hour -= 1
+        minute = 60
     if hour == 1 and minute == 0 and second == 0:
         hour -= 1
         minute = 60
