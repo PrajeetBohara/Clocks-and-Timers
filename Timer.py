@@ -1,7 +1,7 @@
 from tkinter import *
 import time
 
-FONT ="Baskerville"
+FONT ="Baskerville" #choose any font you want
 
 window = Tk()
 window.title("Timer")
