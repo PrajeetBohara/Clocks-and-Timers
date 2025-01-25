@@ -8,7 +8,7 @@ TIME_TEXT = None
 canvas = None
 window = Tk()
 window.title("Timer      by Prajeet.B")
-window.attributes("-topmost", True)
+window.attributes("-topmost", True) #This will always put the app at the top of all the windows
 
 pause = False
 image = None
